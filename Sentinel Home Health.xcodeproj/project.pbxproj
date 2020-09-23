@@ -9,17 +9,17 @@
 /* Begin PBXBuildFile section */
 		D26465CE24B125F700D53058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26465CD24B125F700D53058 /* AppDelegate.swift */; };
 		D26465D024B125F700D53058 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26465CF24B125F700D53058 /* SceneDelegate.swift */; };
-		D26465D224B125F700D53058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26465D124B125F700D53058 /* ViewController.swift */; };
+		D26465D224B125F700D53058 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26465D124B125F700D53058 /* OnboardingVC.swift */; };
 		D26465D524B125F700D53058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26465D324B125F700D53058 /* Main.storyboard */; };
 		D26465D724B125F900D53058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D26465D624B125F900D53058 /* Assets.xcassets */; };
 		D26465DA24B125F900D53058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D26465D824B125F900D53058 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D26465CA24B125F700D53058 /* Sentinel Home Health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sentinel Home Health.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D26465CA24B125F700D53058 /* Sentinel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sentinel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D26465CD24B125F700D53058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D26465CF24B125F700D53058 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D26465D124B125F700D53058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D26465D124B125F700D53058 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
 		D26465D424B125F700D53058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D26465D624B125F900D53058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D26465D924B125F900D53058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		D26465CB24B125F700D53058 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D26465CA24B125F700D53058 /* Sentinel Home Health.app */,
+				D26465CA24B125F700D53058 /* Sentinel.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 			children = (
 				D26465CD24B125F700D53058 /* AppDelegate.swift */,
 				D26465CF24B125F700D53058 /* SceneDelegate.swift */,
-				D26465D124B125F700D53058 /* ViewController.swift */,
+				D26465D124B125F700D53058 /* OnboardingVC.swift */,
 				D26465D324B125F700D53058 /* Main.storyboard */,
 				D26465D624B125F900D53058 /* Assets.xcassets */,
 				D26465D824B125F900D53058 /* LaunchScreen.storyboard */,
@@ -84,7 +84,7 @@
 			);
 			name = "Sentinel Home Health";
 			productName = "Sentinel Home Health";
-			productReference = D26465CA24B125F700D53058 /* Sentinel Home Health.app */;
+			productReference = D26465CA24B125F700D53058 /* Sentinel.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D26465D224B125F700D53058 /* ViewController.swift in Sources */,
+				D26465D224B125F700D53058 /* OnboardingVC.swift in Sources */,
 				D26465CE24B125F700D53058 /* AppDelegate.swift in Sources */,
 				D26465D024B125F700D53058 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JasmineBlack.Sentinel-Home-Health";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Sentinel;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JasmineBlack.Sentinel-Home-Health";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Sentinel;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
